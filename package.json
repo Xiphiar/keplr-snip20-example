@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server"
+    "dev": "webpack-dev-server",
+    "build": "webpack --progress --mode production"
   },
   "keywords": [],
   "author": "",
@@ -20,6 +21,6 @@
     "@cosmjs/launchpad": "^0.23.0",
     "axios": "^0.19.0",
     "fast-deep-equal": "^3.1.1",
-    "secretjs": "^0.11.0"
+    "secretjs": "^0.17.5"
   }
 }

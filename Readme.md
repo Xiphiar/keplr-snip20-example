@@ -10,3 +10,10 @@ npm i
 ```sh
 npm run dev
 ```
+
+
+#### Build for Deployment
+```sh
+npm run build
+```  
+Upload the contents of the `dist` folder to your web host.

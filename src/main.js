@@ -1,5 +1,5 @@
 const { SigningCosmWasmClient } = require("secretjs");
-const chainId = "secret-2";
+const chainId = "secret-4";
 
 
 window.onload = async () => {
@@ -31,7 +31,7 @@ window.onload = async () => {
     // Initialize the gaia api with the offline signer that is injected by Keplr extension.
     // Save it to the window variable
 	window.secretJS = new SigningCosmWasmClient(
-		"https://secret-lcd.azurefd.net",
+		"https://secret-4.api.trivium.network:1317",
 		accounts[0].address,
 		offlineSigner,
 		enigmaUtils

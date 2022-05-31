@@ -10,7 +10,7 @@ module.exports = {
         path: path.resolve(__dirname,  "dist")
     },
     devServer: {
-        port: 8082
+        port: 8080
     },
     plugins: [
         new HtmlWebpackPlugin({
